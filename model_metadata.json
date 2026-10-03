@@ -1,0 +1,17 @@
+{
+    "modality": "brain_mri",
+    "model_name": "EfficientNetB0",
+    "training_method": "transfer_learning_and_fine_tuning",
+    "augmentation_used": false,
+    "class_weighting_used": true,
+    "input_shape": [
+        224,
+        224,
+        3
+    ],
+    "output_type": "binary_probability",
+    "threshold": 0.5,
+    "model_version": "1.0.0",
+    "requires_clinician_review": true,
+    "disclaimer": "For clinical decision support only. The output is not a standalone medical diagnosis."
+}
