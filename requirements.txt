@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+tflite-runtime==2.14.0
+python-multipart
+numpy==1.26.4
+Pillow
